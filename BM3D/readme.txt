@@ -1,0 +1,1 @@
+load this BM3D_code file to your own terminal, and then change the image path to your own one in jupyter. The evaluate the code you will see the PSNR, SSIM and program running time of your sample image.
