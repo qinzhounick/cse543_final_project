@@ -1,0 +1,15 @@
+operator:
+  name: IDT_operator
+  # channels: 1
+  # img_dim: 256
+  opt:
+    meas_path: /export/project/w.weining/pnpdm/pnpdm/measurement/Sim_d=256_x=1-256_y=1-256_NBFkeep=500_illum=choose.mat
+    device: cuda:2
+    add_noise: True
+    NBF_KEEP: 500
+    input_noise: 0.1
+    IMG_Patch: [1,256,256]
+    batch_NBF: 5
+noise: 
+  name: gaussian
+  sigma: 0.05
